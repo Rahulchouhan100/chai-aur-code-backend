@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const todoSchema = new mongoose.Schema(
   {
     content: {
-      type: string,
+      type: String,
       required: true,
     },
     complete: {
